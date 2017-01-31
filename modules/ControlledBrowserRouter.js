@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import ControlledHistory from './ControlledHistory'
-import StaticRouter from 'react-router/StaticRouter'
+import { StaticRouter } from 'react-router'
 
 const restoreKeys = () => {
   try {
